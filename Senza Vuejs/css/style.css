@@ -27,13 +27,17 @@ body{
 /* MAIN */
 .disc_container{
     padding: 70px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .disc{
     padding: 20px;
     background: black;
-    width: 250px;
     color: white;
     text-align: center;
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
 }
 .album{
     margin-bottom: 20px;

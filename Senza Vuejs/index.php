@@ -28,25 +28,32 @@
 
     <!-- MAIN -->
     <main>
+        <!-- Container -->
         <div class="disc_container">
-            <div class="disc">
-                <div class="album">
-                    <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
+            <!-- Ciclo php per polpolare ogni singolo cd -->
+            <?php foreach($database as $data) { ?>
+                <!-- Singolo disco -->
+                <div class="disc">
+                    <div class="album">
+                        <img src= <?php echo $data['poster'];?> alt= <?php echo $data['title'];?> >
+                    </div>
+                    <div class="title">
+                        <?php echo $data['title'];?>
+                    </div>
+                    <div class="author">
+                        <?php echo $data['author'];?>
+                    </div>
+                    <div class="year">
+                        <?php echo $data['year'];?>
+                    </div>
                 </div>
-                <div class="title">
-                    New Jersey
-                </div>
-                <div class="author">
-                    Bon Jovi
-                </div>
-                <div class="year">
-                    1988
-                </div>
-            </div>
+                <!-- Singolo disco End -->
+            <?php } ?>
+            <!-- Fine ciclo php -->
         </div>
+        <!-- Container End -->
     </main>
     <!-- MAIN END -->
-
 </body>
 <!-- BODY END -->
 </html>
