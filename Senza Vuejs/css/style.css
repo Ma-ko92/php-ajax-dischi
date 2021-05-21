@@ -23,3 +23,18 @@ body{
 .logo img{
     width: 50px;
 }
+
+/* MAIN */
+.disc_container{
+    padding: 70px 40px;
+}
+.disc{
+    padding: 20px;
+    background: black;
+    width: 250px;
+    color: white;
+    text-align: center;
+}
+.album{
+    margin-bottom: 20px;
+}

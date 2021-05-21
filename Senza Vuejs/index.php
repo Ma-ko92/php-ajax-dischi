@@ -26,6 +26,27 @@
     </header>
     <!-- HEADER END -->
 
+    <!-- MAIN -->
+    <main>
+        <div class="disc_container">
+            <div class="disc">
+                <div class="album">
+                    <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
+                </div>
+                <div class="title">
+                    New Jersey
+                </div>
+                <div class="author">
+                    Bon Jovi
+                </div>
+                <div class="year">
+                    1988
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN END -->
+
 </body>
 <!-- BODY END -->
 </html>
